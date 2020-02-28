@@ -1,5 +1,5 @@
 import React from 'react';
-import './card-container-style.css';
+import './card-container-styles.css';
 import {Card} from '../card/card-component';
 
 export const CardContainer = (props) => {
