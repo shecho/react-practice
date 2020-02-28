@@ -1,7 +1,7 @@
 import React from 'react';
 import './panel-styles.css';
 
-export default () => {
+export const Panel = () => {
     return(
         <div className="form-container">
             <h1>Panel Usuarios</h1>            

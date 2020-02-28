@@ -1,11 +1,11 @@
 import React from 'react';
 import './card-container-style.css';
-import Card from '../card/card-component';
+import {Card} from '../card/card-component';
 
-export default () => {
+export const CardContainer = (props) => {
     return (
         <div className="card-container">
-            <Card />
+            <Card nombreUsuario = {props.nombreUsuario} email={props.email} />
         </div>
     )
 }
